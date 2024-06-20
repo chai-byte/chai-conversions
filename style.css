@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+.but{
+    color:white;
+    padding: 10px;
+    background-color: yellow;
+     
+}
+ .prim  {
+    background-color: rgb(255, 106, 0);
+    padding: 12px;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 20px;
+}
+.prim a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: medium;
+}
+.clt{
+    color:yellow;
+
+}
+h1{
+    font-size: 90px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 900;
+}
+.hero h1{
+    display: block;
+   
+    
+    padding-top: 25%;
+   
+    line-height: 70px;
+    
+}
+.navbar-brand a  b{
+    width: 20px;
+}
+.navbar{
+    background-color: rgb(255, 106, 0);
+    
+}
+.hero{
+padding-left: 10%;
+
+background-color: rgb(255, 106, 0);
+display: flex;
+}
+.hero img{
+    height:auto;
+    width: 650px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+}
+.content h1{
+    padding-top: 1%;
+    font-size: 50px;
+    text-align: center;
+    margin-top:15%;
+    color:rgb(194, 74, 0);
+    text-align: end;
+  
+}
+
+.content {
+    display: flex;
+    padding-right: 5%;
+     
+}
+.content p{
+    text-align: end;
+    width:50%;
+    margin-left: 45%;
+    font-size: 20px;
+    margin-top: 5%; 
+}
+.inn{
+    margin-top: 5%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+}
+.inn h1{
+    font-size: 60px;
+}
+h4{
+    font-size: 30px;
+}
+.inn img{
+width: 100px;
+height: 100px;
+}
+.cnt{
+    display: flex;
+    padding: 20px;
+}
+.con{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.484), rgba(0, 0, 0, 0.39)) , url("pattern.jpg");
+    width: 100%;
+    color:white;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.con h1{
+    font-size: 50px;
+}
+footer{
+    padding: 50px;
+    background-color: rgb(234, 232, 232);
+    color:black;
+  }
+  footer a{
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    margin:10px;
+  }
+  footer h1{
+    font-size: 40px;
+  }
+  @media (max-width: 576px) {
+h1{
+    font-size: 40px;
+
+}
+.hero{
+    display: block;
+    text-align: center;
+    padding-left: 0%;
+    padding: 2%;
+    width: 100%;
+}
+.hero img{
+    width:250px;
+}
+.hero h1{
+    line-height: 30px;
+}
+.content h1{
+    text-align: center;
+}
+.content p{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.content{
+   
+    display: block;
+    text-align: center;
+}
+.inn h1{
+    font-size:40px ;
+}
+.content img{
+ width: 350px;
+}
+.cnt{
+    display: block;
+}
+footer h1{
+    align-self: center;
+      }
+    footer{
+        text-align: center;
+        padding: 10%;
+    margin: auto;
+    display: block;
+    }
+    .soc{
+        position: relative;
+      left:-50px;
+       }
+  }
